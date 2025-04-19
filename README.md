@@ -1,25 +1,39 @@
-# 🐬 AR Zoo and Museum Exhibits
+# AR Zoo and Museum Exhibits
 
-This is a prototype project for an **Augmented Reality (AR)** educational experience designed to raise awareness about critically endangered Brazilian species. Built as part of an initiative to support **UN SDG 15.7**, this project aims to combat wildlife trafficking through immersive technology.
+🌿 **AR Zoo and Museum Exhibits** is a prototype educational mobile web app using Augmented Reality (AR) to raise awareness about critically endangered species in Brazil.
 
-## 🔍 Features
-- Educational AR exhibit featuring the La Plata dolphin (Toninha)
-- Bilingual interface (Portuguese and English)
-- 3D model viewer (GLB format)
-- Mobile-friendly layout
+## 🐬 Featured Species
+
+- Toninha / La Plata dolphin (*Pontoporia blainvillei*)
+- Mico-leão-dourado / Golden lion tamarin (*Leontopithecus rosalia*)
+
+## 📱 Project Goals
+
+- Provide immersive, bilingual (Portuguese/English) educational experiences.
+- Use AR and mobile-first design to simulate zoo/museum exhibits.
+- Promote conservation and biodiversity awareness.
 
 ## 🛠️ Technologies
-- HTML / CSS / JavaScript
-- React.js
-- WebXR / Three.js (optional for advanced AR integration)
+
+- HTML, CSS, JavaScript
+- Three.js (for AR/3D rendering)
+- WebXR or 8thWall (future integration)
 
 ## 📂 Folder Structure
-- `public/` — Static assets like the `.glb` model and HTML
-- `src/` — React components and styles
-- `README.md` — This file
-- `package.json` — Project dependencies
+
+AR-Zoo-Exhibit/ ├── public/ # Static assets │ ├── index.html │ └── models/ # .glb 3D models ├── src/ │ ├── components/ # JS modules │ ├── styles/ # main.css │ └── app.js # Main app logic ├── README.md ├── LICENSE
+
 
 ## 🚀 How to Run
-```bash
-npm install
-npm start
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/AR-Zoo-Exhibit.git
+
+2. Open public/index.html in a browser (WebXR-supported browser recommended).
+
+📄 License
+
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+---
