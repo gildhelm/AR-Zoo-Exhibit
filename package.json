@@ -1,0 +1,26 @@
+{
+  "name": "ar-zoo-exhibit",
+  "version": "1.0.0",
+  "description": "An Augmented Reality Zoo and Museum Exhibit prototype to raise awareness about endangered species.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [
+    "AR",
+    "Zoo",
+    "SDG",
+    "conservation",
+    "endangered-species",
+    "education"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "aframe": "^1.4.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
