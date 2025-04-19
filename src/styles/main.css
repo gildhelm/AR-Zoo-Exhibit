@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0fcff;
+  color: #333;
+}
+
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.viewer {
+  margin-top: 20px;
+}
