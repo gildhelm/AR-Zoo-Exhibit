@@ -1,107 +1,108 @@
-# AR Zoo and Museum Exhibits
+# 🐬 AR Zoo & Museum Exhibit
 
-This is a prototype for an **Augmented Reality (AR) Zoo and Museum Exhibit**, focused on raising awareness about critically endangered Brazilian species, starting with the **La Plata dolphin (toninha)**.
+An interactive prototype that simulates an Augmented Reality Zoo and Museum Exhibit, designed to raise awareness about critically endangered species in Brazil — starting with the La Plata dolphin (*Pontoporia blainvillei*). This project supports the goals of **UN Sustainable Development Goal 15.7** by promoting conservation through immersive educational tools.
 
-## Features
-
-- Mobile-friendly design
-- Bilingual UI (Portuguese/English)
-- 3D model viewer with placeholder assets
-- Modular structure for future AR integrations
-
-## Goals
-
-- Promote biodiversity awareness aligned with UN SDG 15.7
-- Provide interactive educational content
-- Enable use in classrooms, zoos, and museums
-
-## Project Diagrams
-
-<details> <summary>📄 Click to expand Mermaid Flowchart code</summary>
-```mermaid
-flowchart TD
-    A[Início: Tela de Boas-vindas / Welcome Screen] --> B{Escolher Animal?}
-    B -- Sim / Yes --> C[Visualizar Animal 3D]
-    C --> D{Ativar Modo AR?}
-    D -- Sim / Yes --> E[Experiência em AR]
-    D -- Não / No --> F[Fim da Visualização]
-    B -- Não / No --> F
-    E --> F
-
-</details>
+> 🇵🇹 Disponível em português e inglês  
+> 🇬🇧 Available in Portuguese and English
 
 ---
 
-## 🧱 2. **Work Breakdown Structure (WBS)**
+## 🎯 Project Goals
 
-This WBS outlines your prototype development into key tasks and subcomponents.
+- Educate users about endangered species through engaging AR experiences
+- Simulate interactive 3D animal exhibits with contextual information
+- Create a GitHub-friendly prototype using open web technologies
 
-Here’s the Mermaid WBS code block:
+---
 
-<details>
-<summary>📄 Click to expand Mermaid WBS code</summary>
+## 🚀 Getting Started
 
-```markdown
-```mermaid
+1. Make sure you have **Node.js** installed.
+2. Clone or download the repo.
+3. Run the following commands in the root folder:
+
+```bash
+npm install
+npm start
+
+4. A browser tab will open at http://localhost:1234
+
+💡 Technologies Used
+
+HTML5 + CSS3 + JavaScript (Vanilla + React)
+<model-viewer> for 3D model display
+Parcel for bundling
+Git + GitHub for version control
+
+🧠 Project Diagrams
+
+📊 Flowchart
 graph TD
-    A[AR Zoo Prototype] --> A1[Pesquisa e Planejamento / Research & Planning]
-    A --> A2[Design e Mockups / Design & Mockups]
-    A --> A3[Desenvolvimento Web / Web Development]
-    A --> A4[Testes / Testing]
-    A --> A5[Documentação / Documentation]
-    A2 --> A2a[Mockup da tela inicial / Welcome Screen Mockup]
-    A3 --> A3a[HTML/CSS/JS básico]
-    A3 --> A3b[Visualização 3D com model-viewer]
-    A3 --> A3c[Integração Modo AR]
-    A5 --> A5a[README.md]
-    A5 --> A5b[Licença e Estrutura de Pastas / License & Folder Structure]
+  A[User Opens App] --> B[Landing Page / Welcome]
+  B --> C{Choose Exhibit}
+  C --> D[La Plata Dolphin Exhibit]
+  D --> E[View 3D Model]
+  E --> F{AR Mode?}
+  F -- Yes --> G[Launch AR Viewer]
+  F -- No --> H[Rotate/Zoom Model]
+  H --> I[Read Info / Threats / Fun Facts]
+  G --> I
+  I --> J[Back to Main Menu]
 
-</details>
-
-<details>
-<summary>📄 Click to expand Mermaid WBS code</summary>
-
-```markdown
-```mermaid
+🧩 Work Breakdown Structure
 graph TD
-    A[AR Zoo Prototype] --> A1[Pesquisa e Planejamento / Research & Planning]
-    A --> A2[Design e Mockups / Design & Mockups]
-    A --> A3[Desenvolvimento Web / Web Development]
-    A --> A4[Testes / Testing]
-    A --> A5[Documentação / Documentation]
+  A[AR Zoo Exhibit Project]
+  A --> B[Planning]
+  A --> C[Design]
+  A --> D[Development]
+  A --> E[Testing]
+  A --> F[Documentation]
 
-    A2 --> A2a[Mockup da tela inicial / Welcome Screen Mockup]
-    A3 --> A3a[HTML/CSS/JS básico]
-    A3 --> A3b[Visualização 3D com model-viewer]
-    A3 --> A3c[Integração Modo AR]
-    A5 --> A5a[README.md]
-    A5 --> A5b[Licença e Estrutura de Pastas / License & Folder Structure]
+  B --> B1[Define Species]
+  B --> B2[Set Goals]
+  
+  C --> C1[Mockups]
+  C --> C2[3D Models]
+  
+  D --> D1[HTML/CSS]
+  D --> D2[JavaScript + model-viewer]
+  D --> D3[AR Integration]
 
-</details>
+  E --> E1[Device Testing]
+  E --> E2[Performance]
 
+  F --> F1[README + Diagrams]
+  F --> F2[GitHub Setup]
 
-## Project Structure
-
+📁 Folder Structure
 AR-Zoo-Exhibit/
 ├── public/
-   └── index.html
+│   └── index.html
 ├── src/
-   ├── index.js
-   ├── App.js
-   ├── styles/
-   │   └── main.css
-   └── components/
+│   ├── App.js
+│   ├── index.js
+│   ├── styles/
+│   │   └── main.css
+│   └── components/
 │       └── AnimalViewer.js
+├── assets/
+│   ├── models/
+│   │   └── placeholder.glb
+│   └── mockups/
+│       └── dolphin_welcome_screen.png
 ├── README.md
 ├── LICENSE
 ├── package.json
+└── .gitignore
 
-## How to Run
+📸 References
+🎨 Mockup image: assets/mockups/dolphin_welcome_screen.png
 
-Install dependencies:
+🐬 Species focus: La Plata dolphin (Pontoporia blainvillei)
 
-npm install
+📚 Source: IUCN Red List
 
-Start local server:
+📝 License
+MIT License — see LICENSE for full details.
 
-npm run start
+
