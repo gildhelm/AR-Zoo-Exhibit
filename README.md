@@ -17,8 +17,19 @@ This is a prototype for an **Augmented Reality (AR) Zoo and Museum Exhibit**, fo
 
 ## 📁 Project Structure
 
-AR-Zoo-Exhibit/ ├── public/ │ └── index.html ├── src/ │ ├── index.js │ ├── App.js │ ├── styles/ │ │ └── main.css │ └── components/ │ └── AnimalViewer.js ├── README.md ├── LICENSE ├── package.json
-
+AR-Zoo-Exhibit/
+├── public/
+│   └── index.html
+├── src/
+│   ├── index.js
+│   ├── App.js
+│   ├── styles/
+│   │   └── main.css
+│   └── components/
+│       └── AnimalViewer.js
+├── README.md
+├── LICENSE
+├── package.json
 
 ## 🧪 How to Run
 
