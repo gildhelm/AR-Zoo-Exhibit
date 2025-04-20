@@ -23,23 +23,27 @@ An interactive prototype that simulates an Augmented Reality Zoo and Museum Exhi
 
 ```bash
 npm install
-```
-```bash
 npm start
 ```
-4. A browser tab will open at http://localhost:1234
 
-💡 Technologies Used
+4. A browser tab will open at `http://localhost:1234`
 
-HTML5 + CSS3 + JavaScript (Vanilla + React)
-<model-viewer> for 3D model display
-Parcel for bundling
-Git + GitHub for version control
+---
 
-🧠 Project Diagrams
+## 💡 Technologies Used
 
-📊 Flowchart
-```bash
+- HTML5 + CSS3 + JavaScript (Vanilla + React)
+- [`<model-viewer>`](https://modelviewer.dev/) for 3D model display
+- [Parcel](https://parceljs.org/) for bundling
+- Git + GitHub for version control
+
+---
+
+## 🧠 Project Diagrams
+
+### 📊 Flowchart
+
+```mermaid
 graph TD
   A[User Opens App] --> B[Landing Page / Welcome]
   B --> C{Choose Exhibit}
@@ -53,7 +57,9 @@ graph TD
   I --> J[Back to Main Menu]
 ```
 
-🧩 Work Breakdown Structure
+### 🧩 Work Breakdown Structure
+
+```mermaid
 graph TD
   A[AR Zoo Exhibit Project]
   A --> B[Planning]
@@ -77,9 +83,13 @@ graph TD
 
   F --> F1[README + Diagrams]
   F --> F2[GitHub Setup]
+```
 
-📁 Folder Structure
-```bash
+---
+
+## 📁 Folder Structure
+
+```
 AR-Zoo-Exhibit/
 ├── public/
 │   └── index.html
@@ -101,13 +111,16 @@ AR-Zoo-Exhibit/
 └── .gitignore
 ```
 
-📸 References
+---
 
-🎨 Mockup image: assets/mockups/dolphin_welcome_screen.png
-🐬 Species focus: La Plata dolphin (Pontoporia blainvillei)
-📚 Source: IUCN Red List
+## 📸 References
 
-📝 License
-MIT License — see LICENSE for full details.
+- 🎨 Mockup image: `assets/mockups/dolphin_welcome_screen.png`
+- 🐬 Species focus: La Plata dolphin (*Pontoporia blainvillei*)
+- 📚 Source: [IUCN Red List](https://www.iucnredlist.org/)
 
 ---
+
+## 📝 License
+
+MIT License — see [`LICENSE`](./LICENSE) for full details.
