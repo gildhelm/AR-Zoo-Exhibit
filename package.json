@@ -2,25 +2,26 @@
   "name": "ar-zoo-exhibit",
   "version": "1.0.0",
   "description": "An Augmented Reality Zoo and Museum Exhibit prototype to raise awareness about endangered species.",
-  "main": "index.js",
   "scripts": {
-  "start": "parcel public/index.html --open",
-  "build": "parcel build public/index.html"
-},
-  "keywords": [
-    "AR",
-    "Zoo",
-    "SDG",
-    "conservation",
-    "endangered-species",
-    "education"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
+    "start": "parcel public/index.html --open",
+    "build": "parcel build public/index.html"
+  },
   "dependencies": {
-    "aframe": "^1.4.2"
+    "@google/model-viewer": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "parcel": "^2.8.3"
-  }
+    "parcel": "^2.10.0"
+  },
+  "keywords": [
+    "AR",
+    "Augmented Reality",
+    "Zoo",
+    "Museum",
+    "React",
+    "model-viewer"
+  ],
+  "author": "William Borges",
+  "license": "MIT"
 }
