@@ -18,6 +18,7 @@ This is a prototype for an **Augmented Reality (AR) Zoo and Museum Exhibit**, fo
 ## Project Structure
 
 AR-Zoo-Exhibit/
+
 ├── public/
 │   └── index.html
 ├── src/
