@@ -17,8 +17,7 @@ This is a prototype for an **Augmented Reality (AR) Zoo and Museum Exhibit**, fo
 
 ## Project Diagrams
 
-details> <summary>📄 Click to expand Mermaid Flowchart code</summary>
-
+<details> <summary>📄 Click to expand Mermaid Flowchart code</summary>
 ```mermaid
 flowchart TD
     A[Início: Tela de Boas-vindas / Welcome Screen] --> B{Escolher Animal?}
@@ -34,6 +33,30 @@ flowchart TD
 ---
 
 ## 🧱 2. **Work Breakdown Structure (WBS)**
+
+This WBS outlines your prototype development into key tasks and subcomponents.
+
+Here’s the Mermaid WBS code block:
+
+<details>
+<summary>📄 Click to expand Mermaid WBS code</summary>
+
+```markdown
+```mermaid
+graph TD
+    A[AR Zoo Prototype] --> A1[Pesquisa e Planejamento / Research & Planning]
+    A --> A2[Design e Mockups / Design & Mockups]
+    A --> A3[Desenvolvimento Web / Web Development]
+    A --> A4[Testes / Testing]
+    A --> A5[Documentação / Documentation]
+    A2 --> A2a[Mockup da tela inicial / Welcome Screen Mockup]
+    A3 --> A3a[HTML/CSS/JS básico]
+    A3 --> A3b[Visualização 3D com model-viewer]
+    A3 --> A3c[Integração Modo AR]
+    A5 --> A5a[README.md]
+    A5 --> A5b[Licença e Estrutura de Pastas / License & Folder Structure]
+
+</details>
 
 <details>
 <summary>📄 Click to expand Mermaid WBS code</summary>
