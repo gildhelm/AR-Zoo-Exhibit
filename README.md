@@ -23,6 +23,8 @@ An interactive prototype that simulates an Augmented Reality Zoo and Museum Exhi
 
 ```bash
 npm install
+```
+```bash
 npm start
 ```
 4. A browser tab will open at http://localhost:1234
@@ -37,6 +39,7 @@ Git + GitHub for version control
 🧠 Project Diagrams
 
 📊 Flowchart
+```bash
 graph TD
   A[User Opens App] --> B[Landing Page / Welcome]
   B --> C{Choose Exhibit}
@@ -48,6 +51,7 @@ graph TD
   H --> I[Read Info / Threats / Fun Facts]
   G --> I
   I --> J[Back to Main Menu]
+```
 
 🧩 Work Breakdown Structure
 graph TD
@@ -75,6 +79,7 @@ graph TD
   F --> F2[GitHub Setup]
 
 📁 Folder Structure
+```bash
 AR-Zoo-Exhibit/
 ├── public/
 │   └── index.html
@@ -94,6 +99,7 @@ AR-Zoo-Exhibit/
 ├── LICENSE
 ├── package.json
 └── .gitignore
+```
 
 📸 References
 
