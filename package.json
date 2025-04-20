@@ -4,9 +4,9 @@
   "description": "An Augmented Reality Zoo and Museum Exhibit prototype to raise awareness about endangered species.",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html"
-  },
+  "start": "parcel public/index.html --open",
+  "build": "parcel build public/index.html"
+},
   "keywords": [
     "AR",
     "Zoo",
