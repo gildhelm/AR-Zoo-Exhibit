@@ -5,8 +5,13 @@ import AnimalViewer from './components/AnimalViewer';
 function App() {
   return (
     <div className="app-container">
-      <h1>Bem-vindo ao Zoológico AR! / Welcome to the AR Zoo!</h1>
-      <AnimalViewer />
+      <header>
+        <h1>Bem-vindo ao Zoológico AR! / Welcome to the AR Zoo!</h1>
+        <p>Explore animais brasileiros em perigo crítico de extinção.</p>
+      </header>
+      <main>
+        <AnimalViewer />
+      </main>
     </div>
   );
 }
