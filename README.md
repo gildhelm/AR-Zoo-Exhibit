@@ -1,39 +1,31 @@
-# AR Zoo and Museum Exhibits
+# 🦜 AR Zoo and Museum Exhibits
 
-🌿 **AR Zoo and Museum Exhibits** is a prototype educational mobile web app using Augmented Reality (AR) to raise awareness about critically endangered species in Brazil.
+This is a prototype for an **Augmented Reality (AR) Zoo and Museum Exhibit**, focused on raising awareness about critically endangered Brazilian species, starting with the **La Plata dolphin (toninha)** and the **Golden lion tamarin (mico-leão-dourado)**.
 
-## 🐬 Featured Species
+## 🌟 Features
 
-- Toninha / La Plata dolphin (*Pontoporia blainvillei*)
-- Mico-leão-dourado / Golden lion tamarin (*Leontopithecus rosalia*)
+- Mobile-friendly design
+- Bilingual UI (Portuguese/English)
+- 3D model viewer with placeholder assets
+- Modular structure for future AR integrations
 
-## 📱 Project Goals
+## 🧠 Goals
 
-- Provide immersive, bilingual (Portuguese/English) educational experiences.
-- Use AR and mobile-first design to simulate zoo/museum exhibits.
-- Promote conservation and biodiversity awareness.
+- Promote biodiversity awareness aligned with UN SDG 15.7
+- Provide interactive educational content
+- Enable use in classrooms, zoos, and museums
 
-## 🛠️ Technologies
+## 📁 Project Structure
 
-- HTML, CSS, JavaScript
-- Three.js (for AR/3D rendering)
-- WebXR or 8thWall (future integration)
-
-## 📂 Folder Structure
-
-AR-Zoo-Exhibit/ ├── public/ # Static assets │ ├── index.html │ └── models/ # .glb 3D models ├── src/ │ ├── components/ # JS modules │ ├── styles/ # main.css │ └── app.js # Main app logic ├── README.md ├── LICENSE
+AR-Zoo-Exhibit/ ├── public/ │ └── index.html ├── src/ │ ├── index.js │ ├── App.js │ ├── styles/ │ │ └── main.css │ └── components/ │ └── AnimalViewer.js ├── README.md ├── LICENSE ├── package.json
 
 
-## 🚀 How to Run
+## 🧪 How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/AR-Zoo-Exhibit.git
+Install dependencies:
 
-2. Open public/index.html in a browser (WebXR-supported browser recommended).
+npm install
 
-📄 License
+Start local server:
 
-This project is licensed under the MIT License – see the LICENSE file for details.
-
----
+npm run start
