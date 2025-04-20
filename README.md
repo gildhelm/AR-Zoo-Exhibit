@@ -24,7 +24,7 @@ An interactive prototype that simulates an Augmented Reality Zoo and Museum Exhi
 ```bash
 npm install
 npm start
-
+```
 4. A browser tab will open at http://localhost:1234
 
 💡 Technologies Used
@@ -96,13 +96,12 @@ AR-Zoo-Exhibit/
 └── .gitignore
 
 📸 References
+
 🎨 Mockup image: assets/mockups/dolphin_welcome_screen.png
-
 🐬 Species focus: La Plata dolphin (Pontoporia blainvillei)
-
 📚 Source: IUCN Red List
 
 📝 License
 MIT License — see LICENSE for full details.
 
-
+---
