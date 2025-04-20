@@ -1,18 +1,16 @@
 import React from 'react';
+import '@google/model-viewer';
 
 function AnimalViewer() {
   return (
-    <div className="animal-viewer">
-      <h2>Mico-leão-dourado / Golden Lion Tamarin</h2>
-      <model-viewer
-        src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
-        alt="Modelo temporário de teste"
-        auto-rotate
-        camera-controls
-        ar
-        style={{ width: '100%', height: '500px' }}
-      ></model-viewer>
-    </div>
+    <model-viewer
+      src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+      alt="A 3D model of a La Plata dolphin"
+      auto-rotate
+      camera-controls
+      ar
+      style={{ width: '100%', height: '500px' }}
+    ></model-viewer>
   );
 }
 
