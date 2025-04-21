@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An Augmented Reality Zoo and Museum Exhibit prototype to raise awareness about endangered species.",
   "scripts": {
-    "start": "parcel public/index.html --open",
+    "start": "parcel src/index.html --open",
     "build": "parcel build public/index.html"
   },
   "dependencies": {
