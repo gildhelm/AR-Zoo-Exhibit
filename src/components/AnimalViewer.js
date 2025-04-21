@@ -4,7 +4,7 @@ import '@google/model-viewer';
 function AnimalViewer() {
   return (
     <model-viewer
-      src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+      src="/assets/models/dolphin.glb"
       alt="A 3D model of a La Plata dolphin"
       auto-rotate
       camera-controls
