@@ -1,10 +1,10 @@
 import React from 'react';
-import '@google/model-viewer';
+import dolphinModel from '../assets/models/dolphin.glb';
 
 function AnimalViewer() {
   return (
     <model-viewer
-      src="/assets/models/dolphin.glb"
+      src={dolphinModel}
       alt="A 3D model of a La Plata dolphin"
       auto-rotate
       camera-controls
