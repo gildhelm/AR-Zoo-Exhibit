@@ -5,5 +5,11 @@
   "scripts": {
     "start": "parcel public/index.html --open"
   },
-  ...
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  }
 }
