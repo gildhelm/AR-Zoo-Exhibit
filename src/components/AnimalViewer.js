@@ -5,13 +5,11 @@ function AnimalViewer() {
     <div className="animal-viewer">
       <h2>Toninha / La Plata dolphin</h2>
       <model-viewer
-        src="/models/dolphin.glb"
-        alt="Modelo 3D da toninha"
-        ar
-        ar-modes="scene-viewer webxr quick-look"
-        environment-image="neutral"
+        src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+        alt="Modelo temporário de teste"
         auto-rotate
         camera-controls
+        ar           
         style={{ width: '100%', height: '500px' }}
       ></model-viewer>
     </div>
