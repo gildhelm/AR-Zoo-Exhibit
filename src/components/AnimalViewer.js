@@ -6,8 +6,8 @@ function AnimalViewer() {
     <div className="animal-viewer">
       <h2>Toninha / La Plata dolphin</h2>
       <model-viewer
-        src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
-        alt="A 3D model of a La Plata dolphin"
+        src="/assets/models/dolphin.glb"
+        alt="La Plata dolphin 3D Model"
         auto-rotate
         camera-controls
         ar
