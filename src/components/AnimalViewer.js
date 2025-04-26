@@ -5,13 +5,11 @@ function AnimalViewer() {
     <div className="animal-viewer">
       <h2>Mico-leão-dourado / Golden Lion Tamarin</h2>
       <model-viewer
-        src="/models/golden-lion-tamarin.glb"
-        alt="Modelo 3D do Mico-leão-dourado"
-        ar
-        ar-modes="scene-viewer webxr quick-look"
-        environment-image="neutral"
+        src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+        alt="Modelo temporário de teste"
         auto-rotate
         camera-controls
+        ar
         style={{ width: '100%', height: '500px' }}
       ></model-viewer>
     </div>
