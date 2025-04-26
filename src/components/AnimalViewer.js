@@ -3,10 +3,10 @@ import React from 'react';
 function AnimalViewer() {
   return (
     <div className="animal-viewer">
-      <h2>Mico-leão-dourado / Golden Lion Tamarin</h2>
+      <h2>Toninha / La Plata dolphin</h2>
       <model-viewer
-        src="/models/golden-lion-tamarin.glb"
-        alt="Modelo 3D do Mico-leão-dourado"
+        src="/models/dolphin.glb"
+        alt="Modelo 3D da toninha"
         ar
         ar-modes="scene-viewer webxr quick-look"
         environment-image="neutral"
