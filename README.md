@@ -59,39 +59,33 @@ graph TD
 
 ### 🧩 Work Breakdown Structure
 
-## Work Breakdown Structure (WBS)
-
 ```mermaid
 graph TD
-  A(Project: La Plata Dolphin AR Exhibit) --> B1(Setup Project Folder Structure):::done
-  A --> B2(Prepare 3D Model of Dolphin):::done
-  A --> B3(Build Basic Webpage):::done
-  A --> B4(Enhance Presentation and Responsiveness):::done
-  A --> B5(Deploy to Netlify):::todo
-  A --> B6(Document Project on GitHub):::todo
+  A[AR Zoo Exhibit Project]
+  A --> B[Planning]
+  A --> C[Design]
+  A --> D[Development]
+  A --> E[Testing]
+  A --> F[Documentation]
 
-  B1 --> C1(Create folders: assets/models, css):::done
-  B2 --> C2(Choose and test dolphin.glb model):::done
-  B3 --> C3(Load model with <model-viewer>):::done
-  B4 --> C4(Add background color, responsiveness, description):::done
-  B5 --> C5(Connect GitHub repo to Netlify):::todo
-  B6 --> C6(Write README with WBS and Netlify link):::todo
+  B --> B1[Define Species]
+  B --> B2[Set Goals]
+  
+  C --> C1[Mockups]
+  C --> C2[3D Models]
+  
+  D --> D1[HTML/CSS]
+  D --> D2[JavaScript + model-viewer]
+  D --> D3[AR Integration]
 
-classDef done fill:#c8e6c9,stroke:#388e3c,stroke-width:2px;
-classDef todo fill:#ffcdd2,stroke:#c62828,stroke-width:2px;
+  E --> E1[Device Testing]
+  E --> E2[Performance]
 
-%% Estimated Times
-%% (in days, small-scale student prototype)
-
-%% Setup
-B1:::done --> D1[Estimated: 0.5 day]
-B2:::done --> D2[Estimated: 1 day]
-B3:::done --> D3[Estimated: 0.5 day]
-B4:::done --> D4[Estimated: 0.5 day]
-B5:::todo --> D5[Estimated: 0.5 day]
-B6:::todo --> D6[Estimated: 0.5 day]
+  F --> F1[README + Diagrams]
+  F --> F2[GitHub Setup]
 ```
 
+---
 
 ## 📁 Folder Structure
 
